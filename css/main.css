@@ -1,154 +1,198 @@
 /* Navbar */
-
 .navbar {
     background-color: #021728;
     height: 50px;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
-    border-radius: 0;
+    border-radius: 0
 }
 
 .navbar img {
-    margin-top: -1px;
+    margin-top: -1px
 }
 
 .home .navbar {
-    text-align: center;
+    text-align: center
 }
 
 .rwd-break {
-    display: none;
+    display: none
 }
 
 /* Home */
-
 .home {
-    background-image: url('../img/mapaFondo.png');
+    background-image: url(../img/mapaFondo.png);
     background-repeat: no-repeat;
     background-position: right 175px;
     background-color: #FFF;
-    background-image: url('../img/mapaFondo.png'), -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#AED7C9)); /* Saf4+, Chrome */
-    background-image: url('../img/mapaFondo.png'), -webkit-linear-gradient(top, #FFF, #AED7C9); /* Chrome 10+, Saf5.1+ */
-    background-image: url('../img/mapaFondo.png'),    -moz-linear-gradient(top, #FFF, #AED7C9); /* FF3.6+ */
-    background-image: url('../img/mapaFondo.png'),     -ms-linear-gradient(top, #FFF, #AED7C9); /* IE10 */
-    background-image: url('../img/mapaFondo.png'),      -o-linear-gradient(top, #FFF, #AED7C9); /* Opera 11.10+ */
-    background-image: url('../img/mapaFondo.png'),         linear-gradient(top bottom, #FFF, #AED7C9); /* W3C */
+    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#AED7C9));
+    /* Saf4 , Chrome */
+    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #AED7C9));
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#AED7C9)";
+    background-image: url(../img/mapaFondo.png), linear-gradient(top, #FFF, #AED7C9);
+    /* Chrome 10 , Saf5.1  */
+    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #AED7C9));
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#AED7C9)";
+    background-image: url(../img/mapaFondo.png), linear-gradient(top, #FFF, #AED7C9);
+    /* FF3.6  */
+    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #AED7C9));
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#AED7C9)";
+    background-image: url(../img/mapaFondo.png), linear-gradient(top, #FFF, #AED7C9);
+    /* IE10 */
+    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #AED7C9));
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#AED7C9)";
+    background-image: url(../img/mapaFondo.png), linear-gradient(top, #FFF, #AED7C9);
+    /* Opera 11.10  */
+    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top bottom, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top bottom, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top bottom, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #AED7C9));
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#AED7C9)";
+    background-image: url(../img/mapaFondo.png), linear-gradient(top bottom, #FFF, #AED7C9);
+    /* W3C */
 }
 
 .home header {
     margin-top: 257px;
-    text-align: center;
+    text-align: center
 }
 
 .home header h1 {
     font-size: 27px;
     font-weight: normal;
-    font-style: italic;
+    font-style: italic
 }
 
 .home header h1 span.first {
-    color: #B5014B;
+    color: #B5014B
 }
 
 .home header h1 span.second {
     color: #B5014B;
-    font-size: 35px;
+    font-size: 35px
 }
 
 .home .world {
     position: relative;
     margin-top: 55px;
     height: 402px;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .home .world img {
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .home .world .doit {
     background-color: #B5014B;
     color: #FFF;
+    -moz-box-shadow: 5px 5px 10px #000;
+    -webkit-box-shadow: 5px 5px 10px #000;
     box-shadow: 5px 5px 10px #000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius: 5px;
     font-size: 28px;
     padding: 5px 15px 10px 14px;
     left: 50%;
     margin-left: -128px;
     position: absolute;
-    top: 52%;
+    top: 52%
 }
 
 .doit2-wrapper .doit2 {
     background-color: #B5014B;
     color: #FFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius: 5px;
     font-size: 28px;
     padding: 5px 15px 10px 14px;
     margin-top: 38px;
-    display: inline-block;
+    display: inline-block
 }
 
 /* How */
-
 .how {
     background-color: #B5014B;
-    background-image: url('../img/mapaFondo.png'), url('../img/circulos.png');
+    background-image: url(../img/mapaFondo.png), url(../img/circulos.png);
     background-repeat: no-repeat;
     background-position: right 175px, right bottom -198px;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .how .world {
-    margin-top: -477px;
+    margin-top: -477px
 }
 
 .how .world img {
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .how .container > header {
-    margin-bottom: 35px;
+    margin-bottom: 35px
 }
 
 .how .container > header h1 {
     color: #06D1F9;
     font-style: italic;
-    font-size: 42px;
+    font-size: 42px
 }
 
 .how article .image-container {
-    height: 100px;
+    height: 100px
 }
 
 .how article header h1 {
     color: #FFF;
     font-size: 42px;
-    font-weight: normal;
+    font-weight: normal
 }
 
 .how article p {
     color: #FFF;
     font-size: 13px;
-    padding: 5px 60px;
+    padding: 5px 60px
 }
 
 .how article p span {
-    color: #06D1F9;
+    color: #06D1F9
 }
 
 .how article.delivery a {
     color: #000;
     background-color: #FFF;
     padding: 5px 25px 8px;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topright: 0;
     border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
     border-bottom-right-radius: 0;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
     border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
     border-bottom-left-radius: 5px;
     font-size: 24px;
     text-decoration: none;
+    -moz-box-shadow: 3px 3px 10px #000;
+    -webkit-box-shadow: 3px 3px 10px #000;
     box-shadow: 3px 3px 10px #000;
-    position: relative;
+    position: relative
 }
 
 .how article.delivery a:after {
@@ -156,31 +200,30 @@
     top: 50%;
     border: solid transparent;
     content: " ";
-    height: 0px;
+    height: 0;
     width: 0;
     position: absolute;
     pointer-events: none;
     border-color: rgba(136, 183, 213, 0);
     border-left-color: #FFF;
     border-width: 21px;
-    margin-top: -21px;
+    margin-top: -21px
 }
 
 /* footer */
-
 footer img, footer a {
-    display: inline-block;
+    display: inline-block
 }
 
 footer a {
     padding: 40px 10px 20px;
     color: #FFF;
-    font-size: 9px;
+    font-size: 9px
 }
 
 footer a:hover {
     text-decoration: none;
-    color: #FFF;
+    color: #FFF
 }
 
 /* Responsive Tablets */
@@ -209,6 +252,11 @@ footer a:hover {
 
     .home .world {
         height: 360px;
+    }
+
+    .home, .how {
+        background-size: contain;
+        height: 100%;
     }
 }
 
@@ -267,11 +315,15 @@ footer a:hover {
     .how article p {
         color: #FFF;
         font-size: 13px;
-        padding: 5px 20px;
+        padding: 5px 15px;
     }
 
     .how .container > header {
         margin-top: 50px;
+    }
+
+    .how {
+        background-position: right 175px, right bottom -106px;
     }
 }
 
