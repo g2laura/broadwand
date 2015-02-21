@@ -3,7 +3,13 @@
 .navbar {
     background-color: #021728;
     height: 50px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
     border-radius: 0;
+}
+
+.navbar img {
+    margin-top: -1px;
 }
 
 .home .navbar {
@@ -73,13 +79,23 @@
     top: 52%;
 }
 
+.doit2-wrapper .doit2 {
+    background-color: #B5014B;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 28px;
+    padding: 5px 15px 10px 14px;
+    margin-top: 38px;
+    display: inline-block;
+}
+
 /* How */
 
 .how {
     background-color: #B5014B;
-    background-image: url('../img/mapaFondo.png');
+    background-image: url('../img/mapaFondo.png'), url('../img/circulos.png');
     background-repeat: no-repeat;
-    background-position: right 175px;
+    background-position: right 175px, right bottom -198px;
     overflow: hidden;
 }
 
@@ -186,12 +202,40 @@ footer a:hover {
     .navbar img {
         width: 190px;
     }
+
+    .how .world {
+        margin-top: -432px;
+    }
+
+    .home .world {
+        height: 360px;
+    }
+}
+
+@media (max-width: 768px) {
+    .how .world {
+        margin-top: -369px;
+    }
+
+    .home .world {
+        height: 309px;
+    }
+}
+
+@media (max-width: 600px) {
+    .how .world {
+        margin-top: -318px;
+    }
+
+    .home .world {
+        height: 265px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media (max-width: 480px) {
     .navbar img {
-        width: 175px;
+        width: 160px;
     }
 
     .home header {
@@ -199,11 +243,11 @@ footer a:hover {
     }
 
     .home header h1 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .home header h1 span.second {
-        font-size: 20px;
+        font-size: 23px;
     }
 
     .home .world .doit {
@@ -211,5 +255,42 @@ footer a:hover {
         padding: 3px 6px 3px 6px;
         margin-left: -63px;
     }
+
+    .how .world {
+        margin-top: -296px;
+    }
+
+    .home .world {
+        height: 235px;
+    }
+
+    .how article p {
+        color: #FFF;
+        font-size: 13px;
+        padding: 5px 20px;
+    }
+
+    .how .container > header {
+        margin-top: 50px;
+    }
 }
 
+@media (max-width: 450px) {
+    .how .world {
+        margin-top: -258px;
+    }
+
+    .home .world {
+        height: 202px;
+    }
+}
+
+@media (max-width: 400px) {
+    .how .world {
+        margin-top: -226px;
+    }
+
+    .home .world {
+        height: 168px;
+    }
+}
