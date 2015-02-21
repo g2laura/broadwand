@@ -18,7 +18,7 @@
       <!-- Home -->
       <section class="home row">
         <nav class="navbar" role="navigation">
-          <img src="img/logo.png"/>
+          <img src="img/logo.png" data-0="transform:translate(0,0%);" data-15p="transform:translate(0,-100%);"/>
         </nav>
 
         <header>
@@ -40,7 +40,7 @@
             <div class="doit hidden-xs">
               How did we do it?
             </div>
-            <img src="img/globo.png" class="img-responsive"/>
+            <img src="img/globo.png" class="img-responsive" data-0="transform:rotate(0deg);" data-100p="transform:rotate(360deg);"/>
           </div>
         </div>
       </section><!-- /Home -->
@@ -50,14 +50,14 @@
         <nav class="navbar" role="navigation">
           <div class="navbar-inner">
             <div class="container">
-              <img src="img/logo.png"/>
+              <img src="img/logo.png" data-0="transform:translate(0,-100%);" data-100p="transform:translate(0,0%);"/>
             </div>
           </div>
         </nav>
 
         <div class="container circles">
           <div class="world text-center">
-            <img src="img/globo.png" class="img-responsive"/>
+            <img src="img/globo.png" class="img-responsive" data-0="transform:rotate(0deg);" data-100p="transform:rotate(360deg);"/>
           </div>
         
           <header class="text-center">
@@ -131,6 +131,10 @@
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/skrollr.js"></script>
     <script src="js/main.js"></script>
+
+    <script type="text/javascript">
+      skrollr.init();
+    </script>
     </body>
 
     <!-- Pausing, circular motion, anchor target -->

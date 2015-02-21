@@ -10,6 +10,7 @@
 
 .navbar img {
     margin-top: -1px
+    z-index: 10;
 }
 
 .home .navbar {
@@ -134,6 +135,15 @@
     overflow: hidden
 }
 
+.how .navbar .container {
+    position: relative;
+}
+
+.how .navbar .container img {
+    position: absolute;
+    z-index: 3;
+}
+
 .how .circles {
     background-image: url(../img/circulos.png);
     background-repeat: no-repeat;
@@ -242,8 +252,9 @@ footer a:hover {
         padding-right: 0px;
     }
 
-    .navbar {
-        text-align: center;
+    .how .navbar .container img {
+        left: 50%;
+        margin-left: -95px;
     }
 
     .rwd-break {
@@ -291,6 +302,11 @@ footer a:hover {
 @media (max-width: 480px) {
     .navbar img {
         width: 160px;
+    }
+
+    .how .navbar .container img {
+        left: 50%;
+        margin-left: -80px;
     }
 
     .home header {
