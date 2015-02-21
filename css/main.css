@@ -4,7 +4,8 @@
     height: 50px;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
-    border-radius: 0
+    border-radius: 0;
+    margin-bottom: 0;
 }
 
 .navbar img {
@@ -127,14 +128,21 @@
 /* How */
 .how {
     background-color: #B5014B;
-    background-image: url(../img/mapaFondo.png), url(../img/circulos.png);
+    background-image: url(../img/mapaFondo.png);
     background-repeat: no-repeat;
-    background-position: right 175px, right bottom -198px;
+    background-position: right 175px;
+    overflow: hidden
+}
+
+.how .circles {
+    background-image: url(../img/circulos.png);
+    background-repeat: no-repeat;
+    background-position: right bottom -198px;
     overflow: hidden
 }
 
 .how .world {
-    margin-top: -477px
+    margin-top: -457px
 }
 
 .how .world img {
@@ -254,15 +262,14 @@ footer a:hover {
         height: 360px;
     }
 
-    .home, .how {
+    .home, .how, .circles {
         background-size: contain;
-        height: 100%;
     }
 }
 
 @media (max-width: 768px) {
     .how .world {
-        margin-top: -369px;
+        margin-top: -349px;
     }
 
     .home .world {
@@ -272,7 +279,7 @@ footer a:hover {
 
 @media (max-width: 600px) {
     .how .world {
-        margin-top: -318px;
+        margin-top: -298px;
     }
 
     .home .world {
@@ -305,7 +312,7 @@ footer a:hover {
     }
 
     .how .world {
-        margin-top: -296px;
+        margin-top: -276px;
     }
 
     .home .world {
@@ -322,14 +329,14 @@ footer a:hover {
         margin-top: 50px;
     }
 
-    .how {
-        background-position: right 175px, right bottom -106px;
+    .how .circles {
+        background-position: right bottom -106px;
     }
 }
 
 @media (max-width: 450px) {
     .how .world {
-        margin-top: -258px;
+        margin-top: -238px;
     }
 
     .home .world {
@@ -339,10 +346,14 @@ footer a:hover {
 
 @media (max-width: 400px) {
     .how .world {
-        margin-top: -226px;
+        margin-top: -206px;
     }
 
     .home .world {
         height: 168px;
+    }
+
+    .how .circles {
+        background-position: right bottom -106px;
     }
 }
