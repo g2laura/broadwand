@@ -14,15 +14,11 @@
     </head>
     <body>
 
-    <div class="container">
+    <div class="container-fluid">
       <!-- Home -->
       <section class="home row">
         <nav class="navbar" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <img src="img/logo.png"/>
-            </div>
-          </div>
+          <img src="img/logo.png"/>
         </nav>
 
         <header>
@@ -31,12 +27,11 @@
           </h1>
         </header>
 
-        <div>
-          How did we do it?
-        </div>
-
         <!-- World -->
-        <div class="world">
+        <div class="world text-center">
+          <div class="doit">
+            How did we do it?
+          </div>
           <img src="img/globo.png"/>
         </div>
       </section><!-- /Home -->
@@ -44,58 +39,75 @@
       <!-- How to -->
       <section class="how row">
         <nav class="navbar" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
+          <div class="navbar-inner">
+            <div class="container">
               <img src="img/logo.png"/>
             </div>
           </div>
         </nav>
+
+        <div class="container">
+          <div class="world text-center">
+            <img src="img/globo.png"/>
+          </div>
         
-        <header>
-          <h1>
-            This is how:
-          </h1>
-        </header>
-
-        <!-- Mission -->
-        <article class="mission col-md-4">
-          <img src="img/varita.png"/>
-          <header>
-            <h1>Our Mission</h1>
+          <header class="text-center">
+            <h1>
+              This is how:
+            </h1>
           </header>
 
-          <p>On May 6th 2012 we set a goal for ourselves: to find the <span>“magic” to help prepaid smartphone users optimize the consumption of their data allowance</span> so that wireless broadband is affordable for everyone.</p>
+          <!-- Mission -->
+          <article class="mission col-xs-12 col-sm-12 col-md-4 text-center">
+            <div class="image-container">
+              <img src="img/varita.png"/>
+            </div>
+            <header>
+              <h1>Our Mission</h1>
+            </header>
 
-          <p>Today we have applied for a patent on a unique technology called “Intelligent Indexing and Tagging” (IIT) which will take <span>wireless broadband from the current 15% penetration to over 50% in 5 years.</span></p>
-        </article>
+            <p>On May 6th 2012 we set a goal for ourselves: to find the <span>“magic” to help prepaid smartphone users optimize the consumption of their data allowance</span> so that wireless broadband is affordable for everyone.</p>
 
-        <!-- Journey -->
-        <article class="journey col-md-4">
-          <img src="img/avion.png"/>
-          <header>
-            <h1>Our Journey</h1>
-          </header>
+            <p>Today we have applied for a patent on a unique technology called “Intelligent Indexing and Tagging” (IIT) which will take <span>wireless broadband from the current 15% penetration to over 50% in 5 years.</span></p>
+          </article>
 
-          <p>So, we embarked on a journey to design and develop an IIT Cloud Platform and its associated App and make them <span>available on your ANDROID smartphone.</span></p>
+          <!-- Journey -->
+          <article class="journey col-xs-12 col-sm-12 col-md-4 text-center">
+            <div class="image-container">
+              <img src="img/avion.png"/>
+            </div>
+            <header>
+              <h1>Our Journey</h1>
+            </header>
 
-          <p>Our technology appeals to global operators and handset manufacturers who see <span>prepaid data as their next driver for revenue and profit growth.</span></p>
-        </article>
+            <p>So, we embarked on a journey to design and develop an IIT Cloud Platform and its associated App and make them <span>available on your ANDROID smartphone.</span></p>
 
-        <!-- Delivery -->
-        <article class="delivery col-md-4">
-          <img src="img/flecha.png"/>
-          <header>
-            <h1>Our Delivery</h1>
-          </header>
+            <p>Our technology appeals to global operators and handset manufacturers who see <span>prepaid data as their next driver for revenue and profit growth.</span></p>
+          </article>
 
-          <p><span>Today we have made available to selected markets MOBIMAX</span>, a next generation smartphone App for data management and control which includes NAVEMAX our first implementation of a Trusted Browser incorporating IIT. </p>
+          <!-- Delivery -->
+          <article class="delivery col-xs-12 col-sm-12 col-md-4 text-center">
+            <div class="image-container">
+              <img src="img/flecha.png"/>
+            </div>
+            <header>
+              <h1>Our Delivery</h1>
+            </header>
 
-          <p>Starting today, using your smartphone and surfing the WEB will be <span>affordable for billions of pre-paid mobile users around the world.</span></p>
+            <p><span>Today we have made available to selected markets MOBIMAX</span>, a next generation smartphone App for data management and control which includes NAVEMAX our first implementation of a Trusted Browser incorporating IIT. </p>
 
-          <p>Are you ready to see it for yourself?</p>
+            <p>Starting today, using your smartphone and surfing the WEB will be <span>affordable for billions of pre-paid mobile users around the world.</span></p>
 
-          <button>Download</button>
-        </article>
+            <p>Are you ready to see it for yourself?</p>
+
+            <a href="#">Download</a>
+          </article>
+        </div>
+
+        <footer class="text-right">
+          <img src="img/conversemos.png"/>
+          <a href="http://www.conversemosendigital.com/" target="_blank">Conversemos en digital</a>
+        </footer>
 
       </section><!-- /How to -->
 
@@ -103,10 +115,6 @@
       <section class="contact row">
       </section> <!-- /Contact -->
 
-      <footer>
-        <img src="img/conversemos.png"/>
-        <p>Conversemos en digital</p>
-      </footer>
     </div> <!-- /container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
@@ -115,4 +123,6 @@
     <script src="js/vendor/skrollr.js"></script>
     <script src="js/main.js"></script>
     </body>
+
+    <!-- Pausing, circular motion, anchor target -->
 </html>

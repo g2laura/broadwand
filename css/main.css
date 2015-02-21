@@ -1,22 +1,145 @@
+@media (max-width: 797px) {
+    body { 
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #021728;
+    height: 50px;
+    border-radius: 0;
+}
+
+.home .navbar {
+    text-align: center;
+}
+
+/* Home */
+
+.home {
+    background-image: url('../img/mapaFondo.png');
+    background-repeat: no-repeat;
+    background-position: right 175px;
+    background-color: #FFF;
+    background-image: url('../img/mapaFondo.png'), -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#AED7C9)); /* Saf4+, Chrome */
+    background-image: url('../img/mapaFondo.png'), -webkit-linear-gradient(top, #FFF, #AED7C9); /* Chrome 10+, Saf5.1+ */
+    background-image: url('../img/mapaFondo.png'),    -moz-linear-gradient(top, #FFF, #AED7C9); /* FF3.6+ */
+    background-image: url('../img/mapaFondo.png'),     -ms-linear-gradient(top, #FFF, #AED7C9); /* IE10 */
+    background-image: url('../img/mapaFondo.png'),      -o-linear-gradient(top, #FFF, #AED7C9); /* Opera 11.10+ */
+    background-image: url('../img/mapaFondo.png'),         linear-gradient(top bottom, #FFF, #AED7C9); /* W3C */
+}
+
+.home header {
+    margin-top: 257px;
+    text-align: center;
+}
+
+.home header h1 {
+    font-size: 27px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.home header h1 span:first-child {
+    color: #B5014B;
+}
+
+.home header h1 span:last-child {
+    color: #B5014B;
+    font-size: 35px;
+}
+
+.home .world {
+    position: relative;
+    margin-top: 55px;
+    height: 402px;
+    overflow: hidden;
+}
+
+.home .world .doit {
+    background-color: #B5014B;
+    color: #FFF;
+    box-shadow: 5px 5px 10px #000;
+    border-radius: 5px;
+    font-size: 28px;
+    padding: 5px 15px 10px 14px;
+    left: 50%;
+    margin-left: -128px;
+    position: absolute;
+    top: 52%;
+}
+
+/* How */
+
+.how {
+    background-color: #B5014B;
+    background-image: url('../img/mapaFondo.png');
+    background-repeat: no-repeat;
+    background-position: right 175px;
+}
+
+.how .world {
+    margin-top: -477px;
+}
+
+.how .container > header {
+    margin-bottom: 35px;
+}
+
+.how .container > header h1 {
+    color: #06D1F9;
+    font-style: italic;
+    font-size: 42px;
+}
+
+.how article .image-container {
+    height: 100px;
+}
+
+.how article header h1 {
+    color: #FFF;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.how article p {
+    color: #FFF;
+    font-size: 13px;
+    padding: 5px 60px;
+}
+
+.how article p span {
+    color: #06D1F9;
+}
+
+.how article.delivery a {
+    color: #000;
+    background-color: #FFF;
+    padding: 5px 25px 8px;
+    border-radius: 5px;
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 3px 3px 10px #000;
+}
 
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/* footer */
 
+footer img, footer a {
+    display: inline-block;
+}
 
+footer a {
+    padding: 40px 10px 20px;
+    color: #FFF;
+    font-size: 9px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
 
