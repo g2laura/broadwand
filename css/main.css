@@ -22,7 +22,12 @@
 }
 
 .home .navbar {
-    text-align: center
+    text-align: center;
+}
+
+.home .navbar .logo2 {
+    position: absolute;
+    left: 0;
 }
 
 .rwd-break {
@@ -75,8 +80,9 @@
 }
 
 .home header {
-    margin-top: 257px;
-    text-align: center
+    margin-top: 290px;
+    text-align: center;
+    margin-bottom: 55px;
 }
 
 .home header h1 {
@@ -96,13 +102,11 @@
 
 .home .world {
     position: relative;
-    margin-top: 55px;
-    height: 402px;
-    overflow: hidden
+    padding-top: 54px;
 }
 
 .home .world img {
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .home .world .doit {
@@ -119,7 +123,8 @@
     left: 50%;
     margin-left: -128px;
     position: absolute;
-    top: 52%
+    top: 33%;
+    z-index: 11;
 }
 
 .doit2-wrapper .doit2 {
@@ -134,22 +139,18 @@
     display: inline-block
 }
 
+.doit2-wrapper {
+    margin-bottom: 25px;
+}
+
 /* How */
 .how {
     background-color: #B5014B;
     background-image: url(../img/mapaFondo.png);
     background-repeat: no-repeat;
     background-position: right 175px;
-    overflow: hidden
-}
-
-.how .navbar .container {
-    position: relative;
-}
-
-.how .navbar .container img {
-    position: absolute;
-    z-index: 3;
+    margin-top: -304px;
+    padding-top: 304px;
 }
 
 .how .circles {
@@ -157,10 +158,6 @@
     background-repeat: no-repeat;
     background-position: right bottom -198px;
     overflow: hidden
-}
-
-.how .world {
-    margin-top: -457px
 }
 
 .how .world img {
@@ -260,7 +257,7 @@ footer a:hover {
         padding-right: 0px;
     }
 
-    .how .navbar .container img {
+    .home .navbar .logo2 {
         left: 50%;
         margin-left: -95px;
     }
@@ -273,12 +270,9 @@ footer a:hover {
         width: 190px;
     }
 
-    .how .world {
-        margin-top: -432px;
-    }
-
-    .home .world {
-        height: 360px;
+    .how {
+        margin-top: -304px;
+        padding-top: 304px;
     }
 
     .home, .how, .circles {
@@ -286,23 +280,10 @@ footer a:hover {
     }
 }
 
-@media (max-width: 768px) {
-    .how .world {
-        margin-top: -349px;
-    }
-
-    .home .world {
-        height: 309px;
-    }
-}
-
 @media (max-width: 600px) {
-    .how .world {
-        margin-top: -298px;
-    }
-
-    .home .world {
-        height: 265px;
+    .how {
+        margin-top: -250px;
+        padding-top: 250px;
     }
 }
 
@@ -312,7 +293,7 @@ footer a:hover {
         width: 160px;
     }
 
-    .how .navbar .container img {
+    .home .navbar .logo2 {
         left: 50%;
         margin-left: -80px;
     }
@@ -335,12 +316,9 @@ footer a:hover {
         margin-left: -63px;
     }
 
-    .how .world {
-        margin-top: -276px;
-    }
-
-    .home .world {
-        height: 235px;
+    .how {
+        margin-top: -200px;
+        padding-top: 200px;
     }
 
     .how article p {
@@ -359,22 +337,16 @@ footer a:hover {
 }
 
 @media (max-width: 450px) {
-    .how .world {
-        margin-top: -238px;
-    }
-
-    .home .world {
-        height: 202px;
+    .how {
+        margin-top: -180px;
+        padding-top: 180px;
     }
 }
 
 @media (max-width: 400px) {
-    .how .world {
-        margin-top: -206px;
-    }
-
-    .home .world {
-        height: 168px;
+    .how {
+        margin-top: -166px;
+        padding-top: 166px;
     }
 
     .how .circles {
