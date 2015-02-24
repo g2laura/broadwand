@@ -166,7 +166,13 @@
 }
 
 .how article .image-container {
-    height: 100px
+    height: 150px;
+    width: 129px;
+    margin: 0 auto;
+}
+
+.how article .image-container img {
+    margin-top: 45px;
 }
 
 .how article header h1 {
@@ -238,6 +244,27 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: #FFF
+}
+
+.varita {
+    height: 150px;
+    width: 129px;
+    display: block;
+    background: url("../img/spriteVarita1.png") left center;
+    cursor: pointer;
+}
+
+.varita:hover, .varita:active {
+    -webkit-animation: play .7s steps(5);
+    animation: play .7s steps(5);
+}
+
+@keyframes play {
+    100% { background-position: -645px; }
+}
+
+@-webkit-keyframes play {
+    100% { background-position: -645px; }
 }
 
 /* Responsive Tablets */
