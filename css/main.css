@@ -32,42 +32,42 @@
     background-repeat: no-repeat;
     background-position: right 175px;
     background-color: #FFF;
-    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#AED7C9));
+    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#57BF90));
     /* Saf4 , Chrome */
-    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #AED7C9));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#AED7C9)";
-    background-image: url(../img/mapaFondo.png), linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #57BF90));
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#57BF90)";
+    background-image: url(../img/mapaFondo.png), linear-gradient(top, #FFF, #57BF90);
     /* Chrome 10 , Saf5.1  */
-    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #AED7C9));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#AED7C9)";
-    background-image: url(../img/mapaFondo.png), linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #57BF90));
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#57BF90)";
+    background-image: url(../img/mapaFondo.png), linear-gradient(top, #FFF, #57BF90);
     /* FF3.6  */
-    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #AED7C9));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#AED7C9)";
-    background-image: url(../img/mapaFondo.png), linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #57BF90));
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#57BF90)";
+    background-image: url(../img/mapaFondo.png), linear-gradient(top, #FFF, #57BF90);
     /* IE10 */
-    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #AED7C9));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#AED7C9)";
-    background-image: url(../img/mapaFondo.png), linear-gradient(top, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #57BF90));
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#57BF90)";
+    background-image: url(../img/mapaFondo.png), linear-gradient(top, #FFF, #57BF90);
     /* Opera 11.10  */
-    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top bottom, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top bottom, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top bottom, #FFF, #AED7C9);
-    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #AED7C9));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#AED7C9)";
-    background-image: url(../img/mapaFondo.png), linear-gradient(top bottom, #FFF, #AED7C9);
+    background-image: url(../img/mapaFondo.png), -moz-linear-gradient(top bottom, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -o-linear-gradient(top bottom, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -webkit-linear-gradient(top bottom, #FFF, #57BF90);
+    background-image: url(../img/mapaFondo.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #57BF90));
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#FFF, EndColorStr=#57BF90)";
+    background-image: url(../img/mapaFondo.png), linear-gradient(top bottom, #FFF, #57BF90);
     /* W3C */
 }
 
@@ -84,11 +84,11 @@
 }
 
 .home header h1 span.first {
-    color: #B5014B
+    color: #B8194B
 }
 
 .home header h1 span.second {
-    color: #B5014B;
+    color: #B8194B;
     font-size: 35px
 }
 
@@ -102,7 +102,7 @@
 }
 
 .home .world .doit {
-    background-color: #B5014B;
+    background-color: #B8194B;
     color: #FFF;
     -moz-box-shadow: 5px 5px 10px #000;
     -webkit-box-shadow: 5px 5px 10px #000;
@@ -120,7 +120,7 @@
 }
 
 .doit2-wrapper .doit2 {
-    background-color: #B5014B;
+    background-color: #B8194B;
     color: #FFF;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -135,20 +135,19 @@
     margin-bottom: 25px;
 }
 
+.do {
+    cursor: pointer;
+}
+
 /* How */
 .how {
-    background-color: #B5014B;
+    background-color: #B8194B;
     background-image: url(../img/mapaFondo.png);
     background-repeat: no-repeat;
     background-position: right 175px;
     margin-top: -304px;
     padding-top: 304px;
-}
-
-.how .circles {
-    background-image: url(../img/circulos.png);
-    background-repeat: no-repeat;
-    background-position: right bottom -198px;
+    padding-bottom: 60px;
 }
 
 .how .world img {
@@ -156,11 +155,12 @@
 }
 
 .how .container > header {
-    margin-bottom: 35px
+    margin-bottom: 35px;
+    margin-top: 60px;
 }
 
 .how .container > header h1 {
-    color: #06D1F9;
+    color: #00DAF5;
     font-style: italic;
     font-size: 42px
 }
@@ -188,7 +188,7 @@
 }
 
 .how article p span {
-    color: #06D1F9
+    color: #00DAF5
 }
 
 .how article.delivery a {
@@ -293,6 +293,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .contact header {
     margin: 120px 0 60px 0;
+    clear: both;
 }
 
 .contact header h1 {
@@ -317,7 +318,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .contact .form {
     color: black;
-    padding: 40px;
 }
 
 .contact .form input, .contact .form textarea {
@@ -332,7 +332,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .contact .form a {
     color: #fff;
-    background-color: #B5014B;
+    background-color: #B8194B;
     padding: 5px 25px 8px;
     -webkit-border-top-right-radius: 0;
     -moz-border-radius-topright: 0;
@@ -364,9 +364,22 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     position: absolute;
     pointer-events: none;
     border-color: rgba(136, 183, 213, 0);
-    border-left-color: #B5014B;
+    border-left-color: #B8194B;
     border-width: 21px;
     margin-top: -21px
+}
+
+.contact .form form {
+    margin-top: 30px;
+}
+
+.circles-img {
+    float: right;
+    margin-top: -267px;
+}
+
+.contact {
+    margin-top: -254px;
 }
 
 /* Responsive Tablets */
@@ -390,7 +403,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
         padding-top: 304px;
     }
 
-    .home, .how, .circles {
+    .home, .how {
         background-size: contain;
     }
 }
@@ -446,8 +459,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
         margin-top: 50px;
     }
 
-    .how .circles {
-        background-position: right bottom -106px;
+    .contact header {
+        margin: 60px 0 30px 0;
+        clear: both;
     }
 }
 
@@ -462,9 +476,5 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     .how {
         margin-top: -166px;
         padding-top: 166px;
-    }
-
-    .how .circles {
-        background-position: right bottom -106px;
     }
 }
