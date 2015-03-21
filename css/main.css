@@ -187,11 +187,19 @@
     padding: 5px 60px
 }
 
-.how article p span {
+.how article p a, .how article p a:active, .how article p a:hover {
+    color: #FFF;
+}
+
+.how article p span, .how article p span a, .how article p span a:active, .how article p span a:hover {
     color: #00DAF5
 }
 
-.how article.delivery a {
+.how article p a {
+    text-decoration: none;
+}
+
+.how article.delivery .button {
     color: #000;
     background-color: #FFF;
     padding: 5px 25px 8px;
@@ -215,7 +223,7 @@
     position: relative
 }
 
-.how article.delivery a:after {
+.how article.delivery .button:after {
     right: -41px;
     top: 50%;
     border: solid transparent;
@@ -287,7 +295,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /* Contact us */
 
 .contact {
-    background-color: #02E2CA;
+    background-color: #79BFB0;
     color: white;
 }
 
@@ -462,6 +470,20 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     .contact header {
         margin: 60px 0 30px 0;
         clear: both;
+    }
+
+    .how article.delivery .button {
+        font-size: 19px;
+    }
+
+    .how article.delivery .button:after {
+        border-width: 18px;
+        margin-top: -18px;
+        right: -36px;
+    }
+
+    .contact .map p {
+        font-size: 12px;
     }
 }
 
