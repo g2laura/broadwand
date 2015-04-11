@@ -1,3 +1,7 @@
+body {
+    font-family: 'Muli', Arial;
+}
+
 /* Navbar */
 .navbar {
     background-color: #021728;
@@ -6,6 +10,10 @@
     -webkit-border-radius: 0;
     border-radius: 0;
     margin-bottom: 0;
+}
+
+.navbar .collapse {
+    margin-left: 177px;
 }
 
 .navbar img {
@@ -262,7 +270,7 @@ footer a:hover {
     cursor: pointer;
 }
 
-.varita:hover, .varita:active {
+.play {
     -webkit-animation: play .7s steps(5);
     animation: play .7s steps(5);
 }
@@ -281,22 +289,22 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 input:-moz-placeholder, textarea:-moz-placeholder{ /* Firefox 18- */
-   color: black;  
+   color: black;
 }
 
 input::-moz-placeholder, textarea::-moz-placeholder {  /* Firefox 19+ */
-   color: black;  
+   color: black;
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {  
-   color: black;  
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+   color: black;
 }
 
 /* Contact us */
 
 .contact {
     background-color: #79BFB0;
-    color: white;
+    color: #001727;
 }
 
 .contact header {
@@ -388,6 +396,140 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .contact {
     margin-top: -254px;
+}
+
+/* About Us */
+
+.menu_about {
+    display: none;
+}
+
+.about, .tech {
+    display: none;
+    background-color: #e4f9fd;
+    background-image: url(../img/mapaFondo.png);
+    background-repeat: no-repeat;
+    background-position: right 175px;
+}
+
+.about header h1, .tech header h1 {
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    font-size: 42px;
+    padding: 20px 0;
+}
+
+.about .earth, .tech .earth {
+    margin-top: -400px;
+    text-align: center;
+}
+
+.about .earth img, .tech .earth img {
+    margin: 0 auto;
+}
+
+.about .team div {
+    text-align: center;
+}
+
+.about .team img {
+    border-radius: 50%;
+}
+
+.about .team .info {
+    text-align: left;
+}
+
+.about .team .position {
+    margin-top: -13px;
+    font-size: 12px;
+}
+
+.about .team .name {
+    margin-top: 8px;
+}
+
+.about .team .card {
+    padding: 5px 10px;
+}
+
+.about .team .info {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.about .team .info.last {
+    padding-left: 100px;
+}
+
+.about .team .row h1 {
+    font-size: 11em;
+    font-weight: normal;
+    font-style: italic;
+    color: #001726;
+    opacity: .1;
+}
+
+.about .team .row h2 {
+    color: #aac840;
+    font-style: italic;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.about .advisory {
+    margin-top: 50px;
+}
+
+.about .circles-img {
+    margin-bottom: -110px;
+}
+
+/* Partners */
+
+.partners {
+    background-color: #B8194B;
+    height: 1250px;
+}
+
+.about .partners h1 {
+    font-size: 11em;
+    font-weight: normal;
+    font-style: italic;
+    color: #001726;
+    opacity: .1;
+    margin-top: 180px;
+}
+
+.partners h2 {
+    font-size: 2em;
+    margin-top: -8px;
+    margin-bottom: 35px;
+    color: white;
+    opacity: .4;
+}
+
+.partners .content .info {
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+    font-size: 2em;
+    height: 100px;
+}
+
+.partners .partner {
+    text-align: center;
+}
+
+/* Our Technology */
+
+.tech .info {
+
 }
 
 /* Responsive Tablets */
@@ -499,4 +641,37 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
         margin-top: -166px;
         padding-top: 166px;
     }
+}
+
+/* Bootstrap */
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #021728;
+}
+
+.nav .dropdown-menu {
+    background-color: #021728;
+    height: 100vh;
+}
+
+.dropdown-menu>li>a {
+    color: #337ab7;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top: -1px;
+}
+
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus {
+    background-color: #021728;
+}
+
+.dropdown-menu>li {
+    border-bottom: 1px solid #337ab7;
+    padding: 6px;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: #021728;
+    color: white;
 }
