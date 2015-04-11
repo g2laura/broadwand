@@ -24,15 +24,15 @@
       <nav class="navbar navbar-fixed-top" role="navigation">
         <div class="navbar-inner">
           <div class="container">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse">
               <img class="logo1" src="img/logo.png" data-0="transform:translate(0,0%);" data-30p="transform:translate(0,-100%);"/>
               <img class="logo2" src="img/logo.png" data-100p="transform:translate(0,-100%);" data-120p="transform:translate(0,0%);"/>
               <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="text53">LANGUAGE</a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#" id="reset_button">ENGLISH</a></li>
-                    <li><a href="#" id="translate_button">SPANISH</a></li>
+                    <li><a href="#" class="reset_button">ENGLISH</a></li>
+                    <li><a href="#" class="translate_button">SPANISH</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
@@ -57,14 +57,14 @@
       <nav class="navbar navbar-fixed-top" role="navigation">
         <div class="navbar-inner">
           <div class="container">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse">
               <img class="logo2" src="img/logo.png" style="text-align: left"/>
               <ul class="nav navbar-nav navbar-right">
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="text53">LANGUAGE</a>
                     <ul class="dropdown-menu" role="menu">
-                      <li><a href="#" id="reset_button">ENGLISH</a></li>
-                      <li><a href="#" id="translate_button">SPANISH</a></li>
+                      <li><a href="#" class="reset_button">ENGLISH</a></li>
+                      <li><a href="#" class="translate_button">SPANISH</a></li>
                     </ul>
                   </li>
                   <li class="dropdown">
@@ -187,10 +187,11 @@
 
       <div class="container">
         <article class="team">
+          <img src="img/big-circle.fw.png" class="big-circle"/>
           <div class="row">
             <h1 id="text59">Our Team</h1>
             <h2 id="text60">Founding Members</h2>
-            <div class="card col-xs-4">
+            <div class="card col-xs-12 col-sm-4">
               <img src="img/William.png" />
               <p class="name">William A. Nazaret</p>
               <p class="position" id="text20">Chairman & Chief Technology Officer</p>
@@ -201,7 +202,7 @@
               </div>
             </div>
 
-            <div class="card col-xs-4">
+            <div class="card col-xs-12 col-sm-4">
               <img src="img/Oscar.png" />
               <p class="name">Oscar Rojas</p>
               <p class="position" id="text24">Chief Executive Officer</p>
@@ -212,7 +213,7 @@
               </div>
             </div>
 
-            <div class="card col-xs-4">
+            <div class="card col-xs-12 col-sm-4">
               <img src="img/Jorge.png" />
               <p class="name">Jorge Ferreiro</p>
               <p class="position" id="text28">Co Founder</p>
@@ -226,7 +227,7 @@
 
           <div class="row advisory">
             <h2 id="text61">Advisory Team</h2>
-            <div class="card col-xs-4">
+            <div class="card col-xs-12 col-sm-4">
               <img src="img/Fuad.png" />
               <p class="name">Fuad El-Hibri</p>
               <div class="info">
@@ -236,7 +237,7 @@
               </div>
             </div>
 
-            <div class="card col-xs-4">
+            <div class="card col-xs-12 col-sm-4">
               <img src="img/Claudia.png" />
               <p class="name">Claudia Rodriguez</p>
               <div class="info">
@@ -246,7 +247,7 @@
               </div>
             </div>
 
-            <div class="card col-xs-4">
+            <div class="card col-xs-12 col-sm-4">
               <img src="img/Alberto.png" />
               <p class="name">Alberto Torres</p>
               <div class="info last">
@@ -275,24 +276,25 @@
         </header>
 
         <div class="container">
+          <img src="img/white-circles.fw.png" class="white-circles"/>
           <div class="row">
             <article class="content">
               <div class="col-xs-4 partner">
-                <img src="img/manufacturers.png" />
+                <img src="img/manufacturers.png" class="img-responsive"/>
                 <div class="info">
                   <p id="text43">Handset<br>Manufactures</p>
                 </div>
               </div>
 
               <div class="col-xs-4 partner">
-                <img src="img/operators.png" />
+                <img src="img/operators.png" class="img-responsive"/>
                 <div class="info">
                   <p id="text44">Mobile Operators</p>
                 </div>
               </div>
 
               <div class="col-xs-4 partner">
-                <img src="img/advertisers.png" />
+                <img src="img/advertisers.png" class="img-responsive"/>
                 <div class="info">
                   <p id="text45">Advertisers</p>
                 </div>
@@ -301,6 +303,95 @@
           </div>
         </div>
     </section><!-- /Partners-->
+</div>
+
+<div class="tech">
+    <!-- Our technology -->
+    <section class="tech row">
+      <header>
+        <div class="earth">
+          <img src="img/globo.png" class="img-responsive" />
+        </div>
+        <h1 id="text70">
+          Our Technology
+        </h1>
+      </header>
+
+      <img src="img/big-circle.fw.png" class="big-circle"/>
+
+      <div class="info">
+        <h1 id="text71">MOBIMAX | Intelligent Indexing and Tagging ("IIT")</h1>
+        <h2 id="text72">UPSTO 13/464,408 Patent-Pending</h2>
+      </div>
+
+      <div class="container">
+        <h2 id="text73">The App that delivers a better mobile internet experience</h2>
+
+        <div class="number row">
+            <img src="img/flecha-paso1.fw.png" class="arrow"/>
+            <div class="col-xs-2 int">
+                1
+            </div>
+            <div class="col-xs-8 text" id="text74">
+                All active and passive data components requested by the user are evaluated by type, purpose and weight
+            </div>
+            <div class="col-xs-2">
+                <img src="img/paso1.fw.png" />
+            </div>
+        </div>
+
+        <div class="number row">
+            <img src="img/flecha-paso2.fw.png" class="arrow"/>
+            <div class="col-xs-2 int">
+                2
+            </div>
+            <div class="col-xs-8 text" id="text75">
+                The wireless data charges for each component are calculated and displayed to the user
+            </div>
+            <div class="col-xs-2">
+                <img src="img/paso2.fw.png" />
+            </div>
+        </div>
+
+        <div class="number row">
+            <img src="img/flecha-paso3.fw.png" class="arrow"/>
+            <div class="col-xs-2 int">
+                3
+            </div>
+            <div class="col-xs-8 text" id="text76">
+                User confirms the download knowing what the operator charges for it
+            </div>
+            <div class="col-xs-2">
+                <img src="img/paso3.fw.png" />
+            </div>
+        </div>
+      </div>
+
+      <img class="circles-img" src="img/circulos.png" />
+    </section><!-- /Our Technology -->
+
+    <!-- Graphic -->
+    <section class="graphic row">
+        <div class="col-xs-3">
+            <img src="img/mailproxy.fw.png" />
+            <p id="text77">Mail Proxy (node.js)</p>
+        </div>
+        <div class="col-xs-2">
+            <img src="img/mail-client.fw.png" />
+            <p id="text78">Mail Client</p>
+        </div>
+        <div class="col-xs-2">
+            <img src="img/mobile.fw.png" />
+        </div>
+        <div class="col-xs-2">
+            <img src="img/web-browser-twitter.fw.png" />
+            <p id="text79">Web Browser and Twitter Client</p>
+        </div>
+        <div class="col-xs-3">
+            <img src="img/mailproxy.fw.png" />
+            <p id="text80">HTTP Proxy (node.js)</p>
+        </div>
+    </section><!-- /Graphic-->
 </div>
 
       <!-- Contact -->
@@ -352,6 +443,7 @@
           <img src="img/conversemos.png"/>
           <a href="http://www.conversemosendigital.com/" target="_blank">Conversemos en digital</a>
         </footer>
+        <div class="footer-img"></div>
       </section> <!-- /Contact -->
 
     </div> <!-- /container -->
@@ -416,6 +508,8 @@
       $(".varita").inViewport(function(px){
         if(px) $(this).addClass("play") ;
       });
+
+      $('.collapse').collapse('show');
     </script>
 
     <script>

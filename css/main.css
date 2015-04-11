@@ -262,6 +262,14 @@ footer a:hover {
     color: #FFF
 }
 
+.footer-img {
+    width: 100%;
+    height: 105px;
+    background-image: url("../img/footer.jpg");
+    background-size: cover;
+    background-position: bottom left;
+}
+
 .varita {
     height: 150px;
     width: 129px;
@@ -462,7 +470,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .about .team .info.last {
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .about .team .row h1 {
@@ -480,6 +488,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     font-weight: normal;
 }
 
+.about .team .big-circle, .tech .big-circle {
+    position: absolute;
+    left: -84px;
+}
+
 .about .advisory {
     margin-top: 50px;
 }
@@ -493,6 +506,12 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .partners {
     background-color: #B8194B;
     height: 1250px;
+}
+
+.partners .white-circles {
+    position: absolute;
+    right: 0;
+    margin-top: -300px;
 }
 
 .about .partners h1 {
@@ -526,16 +545,61 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     text-align: center;
 }
 
+.partners .partner img {
+    margin: 0 auto;
+}
+
 /* Our Technology */
 
 .tech .info {
+    background-color: rgba(255, 255, 255, .6);
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
 
+.tech .container h2 {
+    font-size: 4em;
+    font-weight: normal;
+    font-style: italic;
+    color: #001726;
+    opacity: .1;
+    text-align: center;
+}
+
+.tech .number {
+    margin-bottom: 50px;
+}
+
+.tech .text {
+    font-size: 1.9em;
+    margin-top: 69px;
+}
+
+.tech .int {
+    font-size: 12em;
+    color: #001726;
+    opacity: .1;
+    text-align: right;
+    margin-right: -32px;
+    margin-top: -8px;
+    margin-left: 32px;
+}
+
+.tech .arrow {
+    position: absolute;
+    left: 0;
+    margin-top: 80px;
+    width: 18%;
+    height: 54px;
 }
 
 /* Responsive Tablets */
 
 @media (max-width: 768px) {
-    .home .navbar .logo2 {
+    .index .home .navbar .logo2 {
         left: 50%;
         margin-left: -95px;
     }
@@ -556,12 +620,50 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     .home, .how {
         background-size: contain;
     }
+
+    .about .team .info {
+        margin: 0 100px;
+    }
+
+    .about .earth, .tech .earth {
+      margin-top: -304px;
+    }
+
+    .about .team .row h1 {
+        font-size: 6em;
+    }
+
+    .about .team .row h2 {
+        font-size: 2.5em;
+    }
+
+    .about .partners h1 {
+        font-size: 8em;
+        margin-top: 120px;
+    }
+
+    .partners h2 {
+        font-size: 1.5em;
+    }
+
+    .partners .content .info {
+        font-size: .9em;
+        height: 64px;
+    }
+
+    .partners {
+        height: 1100px;
+    }
 }
 
 @media (max-width: 600px) {
     .how {
         margin-top: -250px;
         padding-top: 250px;
+    }
+
+    .about .earth, .tech .earth {
+      margin-top: -250px;
     }
 }
 
@@ -571,7 +673,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
         width: 160px;
     }
 
-    .home .navbar .logo2 {
+    .index .home .navbar .logo2 {
         left: 50%;
         margin-left: -80px;
     }
@@ -627,6 +729,24 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     .contact .map p {
         font-size: 12px;
     }
+
+    .about .team .info {
+        margin: 0 50px;
+    }
+
+    .about .earth, .tech .earth {
+      margin-top: -200px;
+    }
+
+    .about .partners h1 {
+        font-size: 5em;
+        margin-top: 120px;
+    }
+
+    .about .partners {
+        height: 900px;
+    }
+
 }
 
 @media (max-width: 450px) {
@@ -634,12 +754,50 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
         margin-top: -180px;
         padding-top: 180px;
     }
+
+    .about .team .info {
+        margin: 0 25px;
+    }
+
+    .about .earth, .tech .earth {
+      margin-top: -180px;
+    }
 }
 
 @media (max-width: 400px) {
     .how {
         margin-top: -166px;
         padding-top: 166px;
+    }
+
+    .about .earth, .tech .earth {
+      margin-top: -166px;
+    }
+
+    .about .team .row h1 {
+        font-size: 6em;
+    }
+
+    .about .team .row h2 {
+        font-size: 2.5em;
+    }
+
+    .about .partners h1 {
+        font-size: 4em;
+        margin-top: 120px;
+    }
+
+    .partners h2 {
+        font-size: 1em;
+    }
+
+    .partners .content .info {
+        font-size: .9em;
+        height: 64px;
+    }
+
+    .partners {
+        height: 840px;
     }
 }
 
