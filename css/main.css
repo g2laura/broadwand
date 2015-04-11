@@ -596,6 +596,79 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     height: 54px;
 }
 
+.tech .circles-img {
+    margin-bottom: -110px;
+}
+
+.graphic {
+    background-color: #B8194B;
+    height: 900px;
+}
+
+.graphic .white-circles {
+    position: absolute;
+    right: 0;
+    margin-top: -300px;
+}
+
+.graphic .items {
+    height: 646px;
+}
+
+.graphic .items div {
+    border-right: 1px solid rgb(109,1,40);
+    height: 100%;
+    text-align: center;
+}
+
+.graphic .items div:last-child {
+    border-right: none;
+}
+
+.graphic .items .item3 {
+    padding-top: 167px;
+}
+
+.graphic .items .item1, .graphic .items .item2, .graphic .items .item4, .graphic .items .item5 {
+    padding-top: 263px;
+}
+
+.graphic .items p {
+    color: white;
+    opacity: .5;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.graphic .items .item1 p, .graphic .items .item5 p {
+    font-size: 2em;
+}
+
+.graphic .items .item2 p, .graphic .items .item4 p {
+    font-size: 1.5em;
+}
+
+.graphic .items .item1 {
+    padding-right: 56px;
+}
+
+.graphic .items .arrow-izq {
+    position: absolute;
+    right: 0;
+    top: 265px;
+}
+
+.graphic .items .arrow-der {
+    position: absolute;
+    left: 0;
+    top: 265px;
+}
+
+.graphic .items .item5 {
+    padding-left: 56px;
+}
+
+
 /* Responsive Tablets */
 
 @media (max-width: 768px) {

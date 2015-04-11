@@ -372,24 +372,31 @@
 
     <!-- Graphic -->
     <section class="graphic row">
-        <div class="col-xs-3">
-            <img src="img/mailproxy.fw.png" />
-            <p id="text77">Mail Proxy (node.js)</p>
-        </div>
-        <div class="col-xs-2">
-            <img src="img/mail-client.fw.png" />
-            <p id="text78">Mail Client</p>
-        </div>
-        <div class="col-xs-2">
-            <img src="img/mobile.fw.png" />
-        </div>
-        <div class="col-xs-2">
-            <img src="img/web-browser-twitter.fw.png" />
-            <p id="text79">Web Browser and Twitter Client</p>
-        </div>
-        <div class="col-xs-3">
-            <img src="img/mailproxy.fw.png" />
-            <p id="text80">HTTP Proxy (node.js)</p>
+        <img src="img/white-circles.fw.png" class="white-circles"/>
+        <div class="items">
+            <div class="col-xs-2 item1">
+                <img src="img/mailproxy.fw.png" />
+                <p id="text77">Mail Proxy<br>(node.js)</p>
+                <img src="img/flechaIzq.png" class="arrow-izq" />
+            </div>
+            <div class="col-xs-2 item2">
+                <img src="img/mail-client.fw.png" />
+                <p id="text78">Mail Client</p>
+            </div>
+            <div class="col-xs-4 item3">
+                <img src="img/flechaDer.png" class="arrow-der" />
+                <img src="img/mobile.fw.png" />
+                <img src="img/flechaIzq.png" class="arrow-izq" />
+            </div>
+            <div class="col-xs-2 item4">
+                <img src="img/web-browser-twitter.fw.png" />
+                <p id="text79">Web Browser and Twitter Client</p>
+            </div>
+            <div class="col-xs-2 item5">
+                <img src="img/flechaDer.png" class="arrow-der" />
+                <img src="img/mailproxy.fw.png" />
+                <p id="text80">HTTP Proxy<br>(node.js)</p>
+            </div>
         </div>
     </section><!-- /Graphic-->
 </div>

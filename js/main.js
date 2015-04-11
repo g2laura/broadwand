@@ -66,10 +66,10 @@ $(document).ready(function() {
         "All active and passive data components requested by the user are evaluated by type, purpose and weight": "Todos los componentes de la data pasiva y activa solicitada por el usuario son evaluadas por tipo, propósito y peso",
         "The wireless data charges for each component are calculated and displayed to the user": "Los cargos de la data inalámbrica de cada componente se calculan y se le despliegan al usuario",
         "User confirms the download knowing what the operator charges for it": "El usuario confirma la descarga, sabiendo lo que el operador le cobrará por la misma",
-        "Mail Proxy (node.js)": "Proxy de Correo (node.js)",
+        "Mail Proxy<br>(node.js)": "Proxy de Correo<br>(node.js)",
         "Mail Client": "Client de Correo",
         "Web Browser and Twitter Client": "Cliente de Navegador Web y Twitter",
-        "HTTP Proxy (node.js)": "HTTP Proxy (node.js)",
+        "HTTP Proxy<br>(node.js)": "HTTP Proxy<br>(node.js)",
     };
 
     en = {
@@ -139,10 +139,10 @@ $(document).ready(function() {
         "All active and passive data components requested by the user are evaluated by type, purpose and weight": "All active and passive data components requested by the user are evaluated by type, purpose and weight",
         "The wireless data charges for each component are calculated and displayed to the user": "The wireless data charges for each component are calculated and displayed to the user",
         "User confirms the download knowing what the operator charges for it": "User confirms the download knowing what the operator charges for it",
-        "Mail Proxy (node.js)": "Mail Proxy (node.js)",
+        "Mail Proxy<br>(node.js)": "Mail Proxy<br>(node.js)",
         "Mail Client": "Mail Client",
         "Web Browser and Twitter Client": "Web Browser and Twitter Client",
-        "HTTP Proxy (node.js)": "HTTP Proxy (node.js)",
+        "HTTP Proxy<br>(node.js)": "HTTP Proxy<br>(node.js)",
     };
 
     $('.reset_button').click(function(event) {
@@ -265,10 +265,10 @@ $(document).ready(function() {
         $('#text76')._t(
             'User confirms the download knowing what the operator charges for it'
         );
-        $('#text77')._t('Mail Proxy (node.js)');
+        $('#text77')._t('Mail Proxy<br>(node.js)');
         $('#text78')._t('Mail Client');
         $('#text79')._t('Web Browser and Twitter Client');
-        $('#text80')._t('HTTP Proxy (node.js)');
+        $('#text80')._t('HTTP Proxy<br>(node.js)');
     };
 
 });
