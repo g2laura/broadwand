@@ -129,6 +129,7 @@
               <div class="varita"></div>
             </div>
             <header>
+              <h1 class="descbw">Affordable Internet access for the next Five Billion</h1>
               <h1 id="text7">Our Mission</h1>
             </header>
 
@@ -335,8 +336,8 @@
             <div class="col-xs-8 text" id="text74">
                 All active and passive data components requested by the user are evaluated by type, purpose and weight
             </div>
-            <div class="col-xs-2">
-                <img src="img/paso1.fw.png" />
+            <div class="col-xs-2 hidden-xs">
+                <img src="img/paso1.fw.png" class="step" />
             </div>
         </div>
 
@@ -345,11 +346,11 @@
             <div class="col-xs-2 int">
                 2
             </div>
-            <div class="col-xs-8 text" id="text75">
+            <div class="col-xs-10 col-sm-8 text" id="text75">
                 The wireless data charges for each component are calculated and displayed to the user
             </div>
-            <div class="col-xs-2">
-                <img src="img/paso2.fw.png" />
+            <div class="col-sm-2 hidden-xs">
+                <img src="img/paso2.fw.png" class="step" />
             </div>
         </div>
 
@@ -361,8 +362,8 @@
             <div class="col-xs-8 text" id="text76">
                 User confirms the download knowing what the operator charges for it
             </div>
-            <div class="col-xs-2">
-                <img src="img/paso3.fw.png" />
+            <div class="col-xs-2 hidden-xs">
+                <img src="img/paso3.fw.png" class="step" />
             </div>
         </div>
       </div>
@@ -374,27 +375,31 @@
     <section class="graphic row">
         <img src="img/white-circles.fw.png" class="white-circles"/>
         <div class="items">
-            <div class="col-xs-2 item1">
-                <img src="img/mailproxy.fw.png" />
+            <div class="col-xs-12 col-sm-2 item1">
+                <img src="img/mailproxy.fw.png" class="img-responsive"/>
                 <p id="text77">Mail Proxy<br>(node.js)</p>
-                <img src="img/flechaIzq.png" class="arrow-izq" />
+                <img src="img/flechaIzq.png" class="arrow-izq hidden-xs" />
+                <img src="img/flechaArriba.png" class="arrow-up visible-xs" />
             </div>
-            <div class="col-xs-2 item2">
-                <img src="img/mail-client.fw.png" />
+            <div class="col-xs-12 col-sm-2 item2">
+                <img src="img/mail-client.fw.png" class="img-responsive"/>
                 <p id="text78">Mail Client</p>
             </div>
-            <div class="col-xs-4 item3">
-                <img src="img/flechaDer.png" class="arrow-der" />
-                <img src="img/mobile.fw.png" />
-                <img src="img/flechaIzq.png" class="arrow-izq" />
+            <div class="col-xs-12 col-sm-4 item3">
+                <img src="img/flechaAbajo.png" class="arrow-down visible-xs" />
+                <img src="img/flechaDer.png" class="arrow-der hidden-xs"/>
+                <img src="img/mobile.fw.png" class="img-responsive"/>
+                <img src="img/flechaIzq.png" class="arrow-izq hidden-xs"/>
+                <img src="img/flechaArriba.png" class="arrow-up visible-xs" />
             </div>
-            <div class="col-xs-2 item4">
-                <img src="img/web-browser-twitter.fw.png" />
+            <div class="col-xs-12 col-sm-2 item4">
+                <img src="img/web-browser-twitter.fw.png" class="img-responsive"/>
                 <p id="text79">Web Browser and Twitter Client</p>
             </div>
-            <div class="col-xs-2 item5">
-                <img src="img/flechaDer.png" class="arrow-der" />
-                <img src="img/mailproxy.fw.png" />
+            <div class="col-xs-12 col-sm-2 item5">
+                <img src="img/flechaAbajo.png" class="arrow-down visible-xs" />
+                <img src="img/flechaDer.png" class="arrow-der hidden-xs"/>
+                <img src="img/mailproxy.fw.png" class="img-responsive"/>
                 <p id="text80">HTTP Proxy<br>(node.js)</p>
             </div>
         </div>
