@@ -67,7 +67,7 @@ $(document).ready(function() {
         "The wireless data charges for each component are calculated and displayed to the user": "Los cargos de la data inalámbrica de cada componente se calculan y se le despliegan al usuario",
         "User confirms the download knowing what the operator charges for it": "El usuario confirma la descarga, sabiendo lo que el operador le cobrará por la misma",
         "Mail Proxy<br>(node.js)": "Proxy de Correo<br>(node.js)",
-        "Mail Client": "Client de Correo",
+        "Mail Client": "Cliente de Correo",
         "Web Browser and Twitter Client": "Cliente de Navegador Web y Twitter",
         "HTTP Proxy<br>(node.js)": "HTTP Proxy<br>(node.js)",
     };
@@ -144,18 +144,6 @@ $(document).ready(function() {
         "Web Browser and Twitter Client": "Web Browser and Twitter Client",
         "HTTP Proxy<br>(node.js)": "HTTP Proxy<br>(node.js)",
     };
-
-    $('.reset_button').click(function(event) {
-        $.i18n.dict = en;
-        $.i18n.load(en);
-        translate();
-    });
-
-    $('.translate_button').click(function(event) {
-        $.i18n.dict = es;
-        $.i18n.load(es);
-        translate();
-    });
 
     translate = function() {
         $('#text1')._t('AFFORDABLE INTERNET ACCESS');

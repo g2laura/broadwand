@@ -378,27 +378,27 @@
             <div class="col-xs-12 col-sm-2 item1">
                 <img src="img/mailproxy.fw.png" class="img-responsive"/>
                 <p id="text77">Mail Proxy<br>(node.js)</p>
-                <img src="img/flechaIzq.png" class="arrow-izq hidden-xs" />
-                <img src="img/flechaArriba.png" class="arrow-up visible-xs" />
+                <img src="img/FlechaIzq.png" class="arrow-izq hidden-xs" />
+                <img src="img/FlechaArriba.png" class="arrow-up visible-xs" />
             </div>
             <div class="col-xs-12 col-sm-2 item2">
                 <img src="img/mail-client.fw.png" class="img-responsive"/>
                 <p id="text78">Mail Client</p>
             </div>
             <div class="col-xs-12 col-sm-4 item3">
-                <img src="img/flechaAbajo.png" class="arrow-down visible-xs" />
-                <img src="img/flechaDer.png" class="arrow-der hidden-xs"/>
+                <img src="img/FlechaAbajo.png" class="arrow-down visible-xs" />
+                <img src="img/FlechaDer.png" class="arrow-der hidden-xs"/>
                 <img src="img/mobile.fw.png" class="img-responsive"/>
-                <img src="img/flechaIzq.png" class="arrow-izq hidden-xs"/>
-                <img src="img/flechaArriba.png" class="arrow-up visible-xs" />
+                <img src="img/FlechaIzq.png" class="arrow-izq hidden-xs"/>
+                <img src="img/FlechaArriba.png" class="arrow-up visible-xs" />
             </div>
             <div class="col-xs-12 col-sm-2 item4">
                 <img src="img/web-browser-twitter.fw.png" class="img-responsive"/>
                 <p id="text79">Web Browser and Twitter Client</p>
             </div>
             <div class="col-xs-12 col-sm-2 item5">
-                <img src="img/flechaAbajo.png" class="arrow-down visible-xs" />
-                <img src="img/flechaDer.png" class="arrow-der hidden-xs"/>
+                <img src="img/FlechaAbajo.png" class="arrow-down visible-xs" />
+                <img src="img/FlechaDer.png" class="arrow-der hidden-xs"/>
                 <img src="img/mailproxy.fw.png" class="img-responsive"/>
                 <p id="text80">HTTP Proxy<br>(node.js)</p>
             </div>
@@ -468,7 +468,10 @@
     <script src="js/main.js"></script>
 
     <script type="text/javascript">
-      skrollr.init();
+      var s = skrollr.init({
+          mobileDeceleration: 0.001,
+          forceHeight: false
+      });
 
       (function($, win) {
         $.fn.inViewport = function(cb) {
@@ -477,10 +480,11 @@
                var elH = $(el).outerHeight(),
                    H = $(win).height(),
                    r = el.getBoundingClientRect(), t=r.top, b=r.bottom;
-               return cb.call(el, Math.max(0, t>0? Math.min(elH, H-t) : (b<H?b:H)));
+               return cb.call(el, Math.max(0, t>0? Math.min(elH, t) : (b<H?b:H)));
              }
              visPx();
              $(win).on("resize scroll", visPx);
+             s.refresh();
            });
         };
       }(jQuery, window));
@@ -501,6 +505,7 @@
          $('.about').hide();
          $('.tech').hide();
          $('.menu_about').hide();
+         s.refresh();
       });
 
       $('.link_about').click(function(e) {
@@ -508,6 +513,7 @@
           $('.about').show();
           $('.tech').hide();
           $('.menu_about').show();
+          s.refresh();
       });
 
       $('.link_tech').click(function(e) {
@@ -515,6 +521,21 @@
           $('.about').hide();
           $('.tech').show();
           $('.menu_about').show();
+          s.refresh();
+      });
+
+      $('.reset_button').click(function(event) {
+          $.i18n.dict = en;
+          $.i18n.load(en);
+          translate();
+          s.refresh();
+      });
+
+      $('.translate_button').click(function(event) {
+          $.i18n.dict = es;
+          $.i18n.load(es);
+          translate();
+          s.refresh();
       });
 
       $(".varita").inViewport(function(px){
