@@ -29,14 +29,24 @@
               <img class="logo2" src="img/logo.png" data-100p="transform:translate(0,-100%);" data-120p="transform:translate(0,0%);"/>
               <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="text53">LANGUAGE</a>
-                  <ul class="dropdown-menu" role="menu">
+                  <a href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-expanded="false" id="text53">
+                      LANGUAGE
+                  </a>
+                  <a href="#" class="dropdown-toggle visible-xs" data-toggle="dropdown" role="button" aria-expanded="false">
+                      <img src="img/LanguageIcon.png" />
+                  </a>
+                  <ul class="dropdown-menu" role="menu" style="min-width:90px !important">
                     <li><a href="#" class="reset_button">ENGLISH</a></li>
                     <li><a href="#" class="translate_button">SPANISH</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">MENU</a>
+                  <a href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-expanded="false">
+                      MENU
+                  </a>
+                  <a href="#" class="dropdown-toggle visible-xs" data-toggle="dropdown" role="button" aria-expanded="false">
+                      <img src="img/menuIcon.png" />
+                  </a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="#" id="text54" class="link_home">HOME</a></li>
                     <li><a href="#" id="text55" class="link_about">ABOUT US</a></li>
@@ -453,7 +463,7 @@
 
         <footer class="text-right">
           <img src="img/conversemos.png"/>
-          <a href="http://www.conversemosendigital.com/" target="_blank">Conversemos en digital</a>
+          <a href="http://www.conversemosendigital.com/" target="_blank">Conversemos En Digital</a>
         </footer>
         <div class="footer-img"></div>
       </section> <!-- /Contact -->
