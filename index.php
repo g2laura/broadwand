@@ -139,7 +139,6 @@
               <div class="varita"></div>
             </div>
             <header>
-              <h1 class="descbw">Affordable Internet access for the next Five Billion</h1>
               <h1 id="text7">Our Mission</h1>
             </header>
 
@@ -494,7 +493,6 @@
              }
              visPx();
              $(win).on("resize scroll", visPx);
-             s.refresh();
            });
         };
       }(jQuery, window));
@@ -502,12 +500,12 @@
       $('#submit').click(function(e) {
         $('#contact-form').find('[type="submit"]').trigger('click');
         return false;
+        s.refresh();
       });
 
       $(".do").click(function() {
-          $('html, body').animate({
-              scrollTop: $("#this-is-how").offset().top
-          }, 2000);
+          s.animateTo($("#this-is-how").offset().top);
+          s.refresh();
       });
 
       $('.link_home').click(function(e) {
